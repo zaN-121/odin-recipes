@@ -1,0 +1,54 @@
+* {
+    padding: none;
+    margin: none;
+    border: none;
+    
+}
+body {
+    background-color: black;
+    color:rgb(197, 158, 164);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius:50%
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: script;
+    color:rgb(243, 152, 167)
+}
+
+@font-face {
+    font-family: 'script';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/LilyScriptOne-Regular.ttf');
+}
+h1 {
+    font-family: script ;
+    font-size: 100px;
+    text-align: center;
+    color: pink;
+}
+h3 {
+    font-family: script;
+    color : rgb(243, 152, 167);
+    font-size: 50px;
+}
+div {
+    width:120px;
+    height:120px;
+    box-sizing: border-box;
+    border : solid 4px pink;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
