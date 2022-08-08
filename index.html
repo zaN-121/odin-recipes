@@ -4,28 +4,95 @@
     <head>
         <meta charset="utf=8">
         <title>odin recipes</title>
+        <style>
+            * {
+                padding: none;
+                margin: none;
+                border: none;
+                
+            }
+            body {
+                background-color: black;
+            }
+            img {
+                width: 100px;
+                height: 100px;
+                border-radius:50%
+            }
+            a {
+                display: inline-block;
+                text-decoration: none;
+            }
+            ul {
+                display: flex;
+                justify-content: space-around;
+            }
+            li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            @font-face {
+                font-family: 'script';
+                font-weight: normal;
+                font-style: normal;
+                src: url('./fonts/LilyScriptOne-Regular.ttf');
+            }
+            h1 {
+                font-family: script ;
+                font-size: 100px;
+                text-align: center;
+                color: pink;
+            }
+            h3 {
+                font-family: script;
+                color : rgb(243, 152, 167)
+            }
+            div {
+                width:115px;
+                height:115px;
+                box-sizing: border-box;
+                border : solid 5px pink;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+        </style>
     </head>
     <body>
-        <h1>odin recipes</h1>
+        <h1>Odin Recipes</h1>
         <ul>
             <li>
-                <a href="/recipes/ramen.html">
-                    <img src="https://www.allrecipes.com/recipe/286161/chicken-ramen-soup/" alt="ramen soup">
-                    <h5>Ramen</h5>
+                <a href="./recipes/ramen.html">
+                    <div>
+
+                        <img src="./img/ramen.webp"  alt="ramen soup">
+                    </div>
+                    <h3>Ramen</h3>
                 </a>
             </li>
             <li>
-                <a href="/recipes/cupcake.html">
-                    <img src="https://www.allrecipes.com/recipe/284334/giant-cupcake/" alt="giant-cupcake">
-                    <h5>Cupcake</h5>
+                <a href="./recipes/cupcake.html" >
+                   <div>
+
+                       <img src="./img/cupcake.webp" alt="giant-cupcake">
+                    </div>
+                    <h3>Cupcake</h3>
                 </a>
             </li>
             <li>
-                <a href="/recipes/sushi.html">
-                    <img src="https://www.allrecipes.com/recipe/24228/sushi-roll/" alt="sushi-roll">
-                    <h5>Sushi</h5>
+                <a href="./recipes/sushi.html">
+                    <div>
+
+                        <img src="./img/sushi.webp" alt="sushi-roll">
+                    </div>
+                    <h3>Sushi</h3>
                 </a>
             </li>
         </ul>
+        
     </body>
 </html>
